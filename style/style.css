@@ -1,0 +1,172 @@
+*{
+    font-family: Space Grotesk , sans-serif;
+}
+.logo{
+    padding-top: 4vw;
+    position: fixed;
+    margin-left: 3vw;
+    z-index: 2;
+}
+.headi{
+    background-color: white;
+    width: 98vw;
+    height: 100px;
+    position: fixed;
+    z-index: 5;
+}
+.textLogo{
+    margin-left: 4vw;
+    margin-top: -3.8vw;
+    color: black;
+    font-size: 3vw;
+    z-index: 2;
+}
+.col{
+    margin-top: 4vw;
+    margin-left: 44vw;
+    position: fixed;    
+    z-index: 2;
+}
+.textImg{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 1vw;
+    margin-left: 3vw;
+}
+.textImgB{
+    padding-top: 3vw;
+    margin-left: 3vw;
+    font-size: 60px;
+}
+.lafa{
+    padding-top: 8vw;
+}
+.logotipi{
+    margin-top: 3vw;
+    height: 48px;
+}
+.hh{
+    margin-top: 2.5vw;
+}
+.img2{
+    margin-left: 5vw;
+}
+.textprosto{
+    padding-top: 6vw;
+    padding-left: 2vw;
+}
+.opa{
+    margin-left: 3vw;
+}
+.textomg{
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+.u{
+    margin-left: 4vw;
+    font-size: 40px;
+    font-weight: 500;
+    width: 178px;
+    height: 51px;
+    background-color: #B9FF66;
+    padding-top: -50px;
+    border-radius: 7px;
+}
+.bi1{
+    width: 220px;
+    height: 50px;
+    background-color: #B9FF66;
+    border-radius: 7px;
+}
+.imgg{
+    width: 180px;
+    height: 140px;
+    margin-left: 21vw;
+    position: absolute;
+}
+.card{
+    z-index: 1;
+}
+.bi3{
+    width: 220px;
+    height: 50px;
+    background-color: white;
+    border-radius: 7px;
+}
+body{
+    overflow-x: hidden;
+}
+.contact-form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1000px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2vw;
+}
+
+.radio-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.radio-buttons label {
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 400px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* Отключаем изменение фона и текста при наведении */
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff; /* Укажите ваш цвет фона */
+    color: #000000; /* Укажите цвет текста */
+}
+
+.accordion-button {
+    background-color: #ffffff; /* Основной цвет кнопки */
+    color: #000000; /* Основной цвет текста */
+}
+
+.accordion-button:hover,
+.accordion-button:focus {
+    background-color: #8bbe4d; /* Указываем тот же цвет, чтобы не менялся */
+    color: #000000;
+    text-decoration: none;
+}
+
+.accordion-button::after {
+    filter: brightness(0);/
+}
